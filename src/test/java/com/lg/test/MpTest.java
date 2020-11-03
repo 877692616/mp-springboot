@@ -30,7 +30,6 @@ public class MpTest {
     // 查询全部
     @Test
     public void SelectAll(){
-        System.out.println("aaaaaaaa！");
         List<User> list = userMapper.selectList(null);
         list.forEach((item) -> System.out.println(item));
     }
